@@ -11,5 +11,5 @@ A list of deiverables for the project
     * Home
     * About me
     * Thoughts on user interfaces and potential takeaways from this non-optimal experience
+    * Technical Notes about the project
     * Other projects
-    *
