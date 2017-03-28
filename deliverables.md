@@ -5,14 +5,28 @@ A list of deiverables for the project
 
 1. HTML and CSS for web rendering of Command Line Interface
 2. Controller which will maintain state and manage commands
-    * List of Menu Items (full list)
-    * List or revealed menu items (revealed pages)
+   
+   * List of Menu Items (full list)
+   * List or revealed menu items (revealed pages)
+
 3. Page content
-    * Home
-    * About me
-    * Thoughts on user interfaces and potential takeaways from this non-optimal experience
-    * Technical Notes about the project
-    * Other projects
+
+   * Home
+   * About me
+   * Thoughts on user interfaces and potential takeaways from this non-optimal experience
+   * Technical Notes about the project
+   * Other projects
+    
+4. Inventory Items
+
+   * Broken Visitor Counter
+   * Marquee
+   * Animated Background Image
+   * Broken Image
+   * Torch
+   * Shovel
+   * Site Map
+
 
 Page Content
 ------------
@@ -48,6 +62,9 @@ The design documents and code for this project are available on github at https:
 
 This includes HTML and CSS designed to Emulate a terminal with a command line prompt as well as a controller that handles the command input.
 
+*I want a text adventure, Web Command Line Interface, or Site for my business* 
+
+I am a Fulltime Employee, but I often have time for additional projects when I'm not at work. If you are interested in a text based adventure as part of your next online brand promotion or want to discuss other projects, contact me
 
 *Other Projects* 
 
