@@ -26,6 +26,7 @@ A list of deiverables for the project
    * Animated Background Image
    * Broken Image
    * Torch
+   <a title="By Panther40k (Own work) [CC BY 2.0 de (http://creativecommons.org/licenses/by/2.0/de/deed.en)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ATorch.jpg"><img width="256" alt="Torch" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Torch.jpg/256px-Torch.jpg"/></a>
    * Shovel
    * Site Map
 
