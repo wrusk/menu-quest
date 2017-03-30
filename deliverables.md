@@ -13,8 +13,10 @@ A list of deiverables for the project
 
    * Home
    * About me
+   * The joy of April Fools Projects
    * Thoughts on user interfaces and potential takeaways from this non-optimal experience
    * Technical Notes about the project
+   * Hire me
    * Other projects
     
 4. Inventory Items
@@ -41,6 +43,16 @@ Page Content
  *About Me*
  
  I am a developer from Atlanta that has basically been working with the World Wide Web since there has been a World Wide Web to work with. Some of the first things that I programmed were text adventures written in Basic. It was fun finding a way to bring those initial development experiences to you in a new way. If you want to find out more about me, please check out my about.me profile.
+ 
+ 
+ * April Fools on the Web*
+ 
+ It is not uncommon for various Web sites to create practical jokes for April Fools. Here are some notable ones:
+ Google
+ ThinkGeek
+ Blizzard
+ xkcd
+ 
  
  
  *On User Interfaces and Navigation*
