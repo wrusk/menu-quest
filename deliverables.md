@@ -46,7 +46,9 @@ Page Content
  I am a developer from Atlanta that has basically been working with the World Wide Web since there has been a World Wide Web to work with. Some of the first things that I programmed were text adventures written in Basic. It was fun finding a way to bring those initial development experiences to you in a new way. If you want to find out more about me, please check out my about.me profile.
  
  
- * April Fools on the Web*
+ *April Fools on the Web*
+ 
+ Georgia Tech: I worked on this one.  Several Colleges including the College of Computing, the College of Design, the College of Engineering and the College of Sciences hosted JavaScript that unlocks special degrees if you enter the Konami Code. 
  
  It is not uncommon for various Web sites to create practical jokes for April Fools. Here are some notable ones:
  Google
