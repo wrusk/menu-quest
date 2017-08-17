@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block menu_quest_message %}
+{% if response_pkg.mqOpenRooms is empty %}
+You are traveling the Information Superhighway at a very high speed when you lose<br/>
+control of your navigation inside a multi-tiered drop-down menu. You are thoroughly lost,<br/>
+but your surroundings look familiar. <br/>
+<br/>
+Welcome to Menu Quest!</br>
+<br/>
+NOTE: Using the Menu Links above will reset your game</br>
+<br/>
+{% endif %}
+You are in the Main entrance hall. The stone walls are mostly barren, but for the<br/> 
+occasional crack in the stone.<br/> 
+There is an Exit to the East
+{% endblock %}
+
+{% block menu_quest_action_message %}{% endblock %}
+{% block menu_quest_obelisk %}There is a mysterious obelisk on the floor with many buttons. Most are unreadable, but the one enscribed with "Home" is glowing slightly.{% endblock %}
+
+
+{% block body %}
+<h1>Menu Quest</h1>
+<p>Welcome to Menu Quest. Please enter commands to navigate the Web Site and discover the hidden menu. This navigation represents a state of the art user experience 20 year in the making. Please enjoy exploring these cutting edge navigation tools, and consider what you can do to improve your own Web sites.</p>
+{% endblock %}

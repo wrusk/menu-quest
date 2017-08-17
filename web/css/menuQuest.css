@@ -1,0 +1,118 @@
+header{
+	width: 25.2em;
+    margin: auto;
+    background-color: #00FF00;
+    color: #000000;
+    font-size: 3em;
+    text-align: center;
+    font-family: cursive;
+}
+
+nav{
+	width: 75.5em;
+	background-color: #000000;
+	margin: auto;
+}
+
+nav a{
+	color: #00FF00;
+	font-size: 1.5em;
+	font-family: monospace;
+	margin: 1em;
+}
+
+nav a:hover {
+	color: #000000;
+	background-color: #00FF00;
+}
+
+#menuQuestCLI{
+	color: #00FF00;
+	background-color: #000000;
+	font-family: monospace;
+	font-size: 1.5em;
+	padding: 1em;	
+	margin: auto;	
+}
+
+#menuQuestInput form input{
+	color: #00FF00;
+	background-color: #000000;
+	border: none;	
+	font-family: monospace;
+	font-size: 1.2em;	
+}
+
+#menuQuestInput form input:focus{
+	border: none;
+	outline: none;	
+}
+
+#menuQuestInput form:before{
+	content: "$ ";
+	font-size: 1.2em;
+}
+
+main {
+	width: 70em;
+	margin: auto;
+}
+
+/* Desktop resolution */
+@media only screen and (min-width: 64em){ 
+
+#menuQuestCLI{
+	width: 60em;
+	min-height: 20em;
+}
+
+#menuQuestInput form input{
+	width: 45em;	
+}	
+
+
+}
+
+/* Tablet Resolution */
+@media only screen and (min-width: 40.01em) and (max-width: 63.99em){
+
+nav {
+	width: 45.1em;
+}
+
+main {
+	width: 40em;
+}
+
+#menuQuestCLI{
+	width: 35em;
+	min-height: 20em;
+}
+
+#menuQuestInput form input{
+	width: 30em;	
+}	
+
+}
+
+/* Mobile Resolution */
+@media only screen and (max-width: 40em){
+
+nav{
+	width: 95%;
+}
+
+#menuQuestCLI{
+	width: 95%;
+	min-height: 10em;
+}
+
+#menuQuestInput form input{
+	width: 90%;	
+}	
+
+main {
+	width: 90%;
+}
+
+}

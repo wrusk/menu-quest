@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Menu Quest{% endblock %}</title>
+        {% block stylesheets %}
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/menuQuest.css') }}">
+        {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        {% block header_js %}{% endblock %}
+    </head>
+    <body>
+ 		<header>Menu Quest</header>
+		<nav>	
+		  <a href="/">Home</a>
+		  {% if 'about' in response_pkg.mqOpenRooms %}
+		  <a href="/about">About Me</a>
+		  {% endif %}
+		  {% if 'april-fools' in response_pkg.mqOpenRooms %}
+		  <a href="/april-fools">April Fools</a>
+		  {% endif %}
+		  {% if 'projects' in response_pkg.mqOpenRooms %}
+		  <a href="/projects">Other Projects</a>
+		  {% endif %}		  
+		</nav>
+		<section id="menuQuestCLI">
+			<div id="menuQuestMessage">
+				{% block menu_quest_message %}Welcome to Menu Quest{% endblock %}<br/>
+				{% block menu_quest_action_message %}{% endblock %}<br/>
+				{% block menu_quest_obelisk %}{% endblock %}
+			</div>
+			<div id="menuQuestInput">
+				<form>
+					<input type="hidden" name="mqOpenRooms" value="{{response_pkg.mqOpenRooms}}">
+					<input type="text" name="mqUserInput" autofocus>
+				</form>
+			</div>
+		</section> 
+		<main>		   
+        {% block body %}{% endblock %}
+        </main>
+        <footer>{% block footer %}{% endblock %}</footer>
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
